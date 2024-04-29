@@ -1,0 +1,59 @@
+body {
+     background-image:url("ijen.jpg") ;
+	 background-size:100% 100%;
+	 margin:auto;
+	 background-attachment: fixed;
+	 background-repeat:no-repeat;
+	 color: green;
+
+
+
+}
+.menu 
+    font-family:tahoma;
+    font-weight:bold;
+    height:70px;
+    width:100%;
+    background:black;
+    border-radius:5px;
+    font-size:18px;
+
+}
+
+label {
+	font-family:comic sans ms;
+	font-size:20pt;
+	color:white;
+	margin:10px;
+	padding:5px;
+	float:left;
+}
+
+.menu ul {
+	margin:0px;
+	padding:5px;
+	background:none;
+	display:block;
+	float: right;
+	
+	
+
+}	
+
+.menu ul li{
+	list-style:none;
+	display:inline-block;
+		
+}
+
+.menu ul li a{
+	display:block;
+	text-decoration:none;
+	padding:20px;
+	color:#ddd;
+
+}
+.title{
+	font-size: 70;
+	position: relative;
+	text-align: center;

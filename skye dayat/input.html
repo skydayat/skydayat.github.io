@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>input</title>
+</head>
+<body>
+
+<h1>BIODATA</h1>
+<form>
+    <label>Masukan Nama:</label>
+	<input type="text" id="nama">
+	<br>
+	<label>Masukan Kelas:</label>
+	<input type="text" id="kelas">
+	<br>
+	<label>Masukan No. WA:</label>
+	<input type="text" id="wa">
+	<br>
+	<label>Tempat Lahir:</label>
+	<input type="text" id="tempat lahir">
+	<br>
+	<label for="birthday">Tanggal Lahir:</label>
+    <input type="date" id="birthday" name="birthday">
+	<br>
+	<button onclick="tamapilkanHasil()">Daftar</button>
+</form>
+<script>
+function tampilkanHasil() {
+    var nama = document.getElementById("nama").value;
+	var kelas = document.getElementById("nama").value;
+	var wa = document.getElementById("nama").value;
+	var ttl = document.getElementById("nama").value;
+	document.write("<h1>PROFIL<h1>");
+	document.write("<p>Nama  : "+nama+"</p>");
+	document.write("<p>Kelas : "+nama+"</p>");
+	document.write("<p>No. WA: "+nama+"</p>");
+}
+
+</body>
+</html>
